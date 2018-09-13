@@ -34,14 +34,14 @@ Current stable release is able to persist the following sources of data in the f
 ## Cygnus place in FIWARE architecture
 Cygnus plays the role of a connector between Orion Context Broker (which is a NGSI source of data) and many external and FIWARE storages like MySQL, MongoDB
 
-![FIWARE architecture](nifi-ngsi-resources/images/fiware_architecture.png)
+![FIWARE architecture](doc/images/fiware_architecture.png)
 
 ## Further documentation
-The **Quick Start Guide** is found at readthedocs.org provides a good documentation summary ([Cygnus](nifi-ngsi-resources/doc/quick_start_guide.md)).
+The **Quick Start Guide** is found at readthedocs.org provides a good documentation summary ([Cygnus](doc/quick_start_guide.md)).
 
-Nevertheless, both the **Installation and Administration Guide** also found at [readthedocs.org](nifi-ngsi-resources/doc/installation_and_administration_guide/README.md) cover more advanced topics.
+Nevertheless, both the **Installation and Administration Guide** also found at [readthedocs.org](doc/installation_and_administration_guide/README.md) cover more advanced topics.
 
-The **Processors Catalogue** completes the available documentation for Cygnus ([Cygnus](nifi-ngsi-resources/doc/processors_catalogue/README.md)).
+The **Processors Catalogue** completes the available documentation for Cygnus ([Cygnus](doc/processors_catalogue/README.md)).
 
 
 ## Licensing
@@ -54,4 +54,4 @@ Cygnus Except as otherwise noted this software is licensed under the Apache Lice
        Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Reporting issues and contact information
-Any doubt you may have, please refer to the [Cygnus Core Team](./nifi-ngsi-resources/doc/installation_and_administration_guide/issues_and_contact.md).
+Any doubt you may have, please refer to the [Cygnus Core Team](doc/installation_and_administration_guide/issues_and_contact.md).

@@ -1,0 +1,32 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/amunoz/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/amunoz/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[NGSIToPostgreSQL.buildTableName]-------- When a root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'x002f' is equals to the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-------- When a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'x002fsomex0050athxffffsomex0049dxffffsomex0054ype' is equals to the encoding of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-------- When a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'somePath' is equals to the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-------- When a root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'x002fxffffsomex0049dxffffsomex0054ype' is equals to the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-------- When a root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name cannot be built
+Default service path '/' cannot be used with dm-by-service-path data model
+[NGSIToPostgreSQL.buildTableName]- FAIL - The root service path was not detected as not valid
+[NGSIToPostgreSQL.buildTableName]-------- When a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'somePath_someId_someType' is equals to the encoding of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-------- When a root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'someId_someType' is equals to the encoding of <service-path>
+[NGSIToPostgreSQL.buildDBName]-------- The schema name is equals to the encoding of the notified/defaulted service
+[NGSIToPostgreSQL.buildDBName]-  OK  - 'somex0053ervice' is equals to the encoding of <service>
+[NGSIToPostgreSQL.buildSchemaName]-------- A schema name length greater than 63 characters is detected
+[NGSIToPostgreSQL.buildSchemaName]-  OK  - A schema name length greater than 63 characters has been detected
+[NGSIToPostgreSQL.buildDBName]-------- The schema name is equals to the encoding of the notified/defaulted service
+[NGSIToPostgreSQL.buildDBName]-  OK  - 'someService' is equals to the encoding of <service>
+[NGSIToPostgreSQL.buildTableName]-------- When data model is by service path, a table name length greater than 63 characters is detected
+[NGSIToPostgreSQL.buildTableName]-  OK  - A table name length greater than 63 characters has been detected
+[NGSIToPostgreSQL.buildTableName]-------- When data model is by entity, a table name length greater than 63 characters is detected
+[NGSIToPostgreSQL.buildTableName]-  OK  - A table name length greater than 63 characters has been detected
+[NGSIToPostgreSQL.buildTableName]-------- When a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of <service-path>
+[NGSIToPostgreSQL.buildTableName]-  OK  - 'x002fsomex0050ath' is equals to the encoding of <service-path>

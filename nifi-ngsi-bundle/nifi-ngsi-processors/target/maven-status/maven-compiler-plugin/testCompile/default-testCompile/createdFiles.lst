@@ -1,0 +1,3 @@
+org/apache/nifi/processors/ngsi/TestNGSIToPostgreSQL.class
+org/apache/nifi/processors/ngsi/TestNGSIToMySQL.class
+org/apache/nifi/processors/ngsi/TestNGSIToMongo.class

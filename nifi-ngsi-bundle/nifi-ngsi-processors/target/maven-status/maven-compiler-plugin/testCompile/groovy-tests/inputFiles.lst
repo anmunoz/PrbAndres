@@ -1,0 +1,3 @@
+/home/amunoz/Desktop/cygnusv2/fiware-cygnus/nifi-ngsi-bundle/nifi-ngsi-processors/src/test/java/org/apache/nifi/processors/ngsi/TestNGSIToMongo.java
+/home/amunoz/Desktop/cygnusv2/fiware-cygnus/nifi-ngsi-bundle/nifi-ngsi-processors/src/test/java/org/apache/nifi/processors/ngsi/TestNGSIToMySQL.java
+/home/amunoz/Desktop/cygnusv2/fiware-cygnus/nifi-ngsi-bundle/nifi-ngsi-processors/src/test/java/org/apache/nifi/processors/ngsi/TestNGSIToPostgreSQL.java

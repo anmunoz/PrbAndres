@@ -113,6 +113,6 @@ For the DBCPConnectionPoll controller, a list with all the parameters and his de
 
 ### MongoDB Specific configuration
 
-MongoDB doesn't need a controller configuration, instead, all of that configuration is done directly in the processor [NGSIToMongo](../processors_catalogue/NGSIToMongo.md).
+MongoDB doesn't need a controller configuration, instead, all of that configuration is done directly in the processor [NGSIToMongo](../processors_catalogue/ngsi_mongo_sink.md).
 
 

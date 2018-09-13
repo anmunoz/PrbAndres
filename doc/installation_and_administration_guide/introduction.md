@@ -43,7 +43,7 @@ Current stable release of Cygnus is able to persist Orion context data in:
 ## Intended audience
 This document is mainly addressed to those FIWARE users already using an [Orion Context Broker](https://github.com/telefonicaid/fiware-orion) instance and willing to create historical views from the context data managed by Orion. In that case, you will need this document in order to learn how to install and administrate cygnus.
 
-If your aim is to create a new processors for cygnus or NiFi , or expand it in some way, please refer to the [User and Programmer Guide](../user_and_programmer_guide/introduction.md).
+If your aim is to create a new processors for cygnus or NiFi , or expand it in some way, please refer to the [User and Programmer Guide]().
 
 [Top](#top)
 

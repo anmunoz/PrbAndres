@@ -1,0 +1,27 @@
+[NGSIToMySQL.buildTableName]-------- When no encoding and when a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildTableName]-  OK  - 'somePath_someId_someType' is equals to the encoding of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildTableName]")
+                + "-------- When encoding and when a non root service-path is notified/defaulted and data_model is "
++ "'dm-by-service-path' the MySQL table name is the encoding of <service-path>
+[NGSIToMySQL.buildTableName]-  OK  - 'x002f' is equals to the encoding of <service-path>
+[NGSIToMySQL.buildTableName]-------- When encoding and when a non root service-path is notified/defaulted and data_model is 'db-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildTableName]-  OK  - 'x002fxffffsomeIdxffffsomeType' is equals to the encoding of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildDBName]-------- When encoding, the DB name is equals to the encoding of the notified/defaulted service
+[NGSIToMySQL.buildDBName]-  OK  - 'someService' is equals to the encoding of <service>
+[NGSIToMySQL.buildTableName]-------- When no encoding and when a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildTableName]-  OK  - 'someId_someType' is equals to the encoding of <service-path>and <entityType>
+[NGSIToMySQL.buildDBName]-------- When no encoding, the DB name is equals to the encoding of the notified/defaulted service
+[NGSIToMySQL.buildDBName]-  OK  - 'someService' is equals to the encoding of <service>
+[NGSIToMySQL.buildDbName]-------- A database name length greater than 64 characters is detected
+[NGSIToMySQL.buildDbName]-  OK  - A database name length greater than 64 characters has been detected
+[NGSIToMySQL.buildTableName]")
+                + "-------- When no encoding and when a root service-path is notified/defaulted and data_model is "
++ "'db-by-service-path' the MySQL table name is the encoding of <service-path>
+Default service path '/' cannot be used with dm-by-service-path data model
+[NGSIToMySQL.buildTableName]- FAIL - The table name was built when data_model='dm-by-service-path' and using the root service path
+[NGSIToMySQL.buildTableName]-------- When no encoding and when a non root service-path is notified/defaulted and data_model is 'dm-by-service-path' the MySQL table name is the encoding of <service-path>
+[NGSIToMySQL.buildTableName]-  OK  - 'somePath' is equals to the encoding of <service-path>
+[NGSIToMySQL.buildTableName]-------- When data model is by entity, a table name length greater than 64 characters is detected
+[NGSIToMySQL.buildTableName]-  OK  - A table name length greater than 64 characters has been detected
+[NGSIToMySQL.buildTableName]-------- When encoding and when a non root service-path is notified/defaulted and data_model is 'db-by-service-path' the MySQL table name is the encoding of the concatenation of <service-path>, <entityId> and <entityType>
+[NGSIToMySQL.buildTableName]-  OK  - 'x002fsomePathxffffsomeIdxffffsomeType' is equals to the encoding of <service-path>, <entityId> and <entityType>
